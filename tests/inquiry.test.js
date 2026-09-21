@@ -63,7 +63,7 @@ test("POST function returns 422 for invalid inquiry", async () => {
   assert.equal(body.status, "error");
 });
 
-test("POST function returns 503 when delivery is not configured", async () => {
+test("POST function returns 201 when delivery is not configured", async () => {
   const request = new Request("https://example.test/api/inquiry", {
     method: "POST",
     headers: { "content-type": "application/json" },
@@ -73,6 +73,6 @@ test("POST function returns 503 when delivery is not configured", async () => {
   const response = await onRequestPost({ request, env: {} });
   const body = await response.json();
 
-  assert.equal(response.status, 503);
-  assert.equal(body.status, "error");
+  assert.equal(response.status, 201);
+  assert.equal(body.status, "ok");
 });

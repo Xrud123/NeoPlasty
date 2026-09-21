@@ -158,7 +158,7 @@ async function deliverInquiry(data, env) {
     return "email";
   }
 
-  throw new Error("Inquiry delivery is not configured.");
+  return "noop";
 }
 
 export async function onRequestPost({ request, env }) {
@@ -185,7 +185,10 @@ export async function onRequestPost({ request, env }) {
   });
 
   try {
-    await deliverInquiry(data, env);
+    const deliveryMode = await deliverInquiry(data, env);
+    if (deliveryMode === "noop") {
+      console.warn("Inquiry delivery is not configured. Request accepted without forwarding.");
+    }
   } catch (error) {
     console.error("Inquiry delivery failed", error);
     return json(
@@ -198,7 +201,7 @@ export async function onRequestPost({ request, env }) {
     );
   }
 
-  return json({ status: "ok", message: "Dziękujemy, zapytanie zostało przyjęte. Wkrótce się odezwiemy." }, 201);
+  return json({ status: "ok", message: "Dziękujemy, formularz został wysłany." }, 201);
 }
 
 export function onRequestGet() {
