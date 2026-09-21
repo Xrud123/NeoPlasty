@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Schematische rozmery nádrže</title>
+  <desc id="desc">Placeholder technická schéma rozmerov nádrže.</desc>
+  <rect width="900" height="620" fill="#f7f8f6"/>
+  <rect x="205" y="255" width="490" height="220" rx="18" fill="#eef3f0" stroke="#11634d" stroke-width="8"/>
+  <rect x="386" y="160" width="128" height="96" rx="12" fill="#ffffff" stroke="#11634d" stroke-width="8"/>
+  <path d="M205 515h490M205 500v30M695 500v30" stroke="#c56a27" stroke-width="6" stroke-linecap="round"/>
+  <path d="M745 255v220M730 255h30M730 475h30" stroke="#c56a27" stroke-width="6" stroke-linecap="round"/>
+  <text x="450" y="557" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#64706b">šírka placeholder</text>
+  <text x="794" y="370" text-anchor="middle" transform="rotate(-90 794 370)" font-family="Arial, sans-serif" font-size="22" fill="#64706b">výška placeholder</text>
+  <path d="M250 302h400M250 362h400M250 422h400" stroke="#9eb2aa" stroke-width="6" stroke-linecap="round"/>
+</svg>

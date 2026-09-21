@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Retenčná nádrž 20 000 l</title>
+  <desc id="desc">Placeholder vizualizácia hranatej plastovej retenčnej nádrže.</desc>
+  <rect width="900" height="620" fill="#f7f8f6"/>
+  <ellipse cx="452" cy="505" rx="322" ry="36" fill="#d9e2dd"/>
+  <rect x="165" y="230" width="570" height="250" rx="32" fill="#d8e3df" stroke="#11634d" stroke-width="10"/>
+  <path d="M190 270h520M190 332h520M190 394h520" stroke="#9eb2aa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M264 230v250M377 230v250M490 230v250M603 230v250" stroke="#abc0b8" stroke-width="8"/>
+  <path d="M416 136h116c18 0 33 15 33 33v61H383v-61c0-18 15-33 33-33Z" fill="#eef3f0" stroke="#11634d" stroke-width="10"/>
+  <rect x="398" y="103" width="152" height="44" rx="8" fill="#c56a27"/>
+  <path d="M230 485h470" stroke="#11634d" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#64706b">placeholder image - replace with real product photo</text>
+</svg>

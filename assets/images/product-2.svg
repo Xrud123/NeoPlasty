@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Detail revízneho otvoru</title>
+  <desc id="desc">Placeholder detail revízneho otvoru plastovej nádrže.</desc>
+  <rect width="900" height="620" fill="#f7f8f6"/>
+  <rect x="210" y="330" width="480" height="130" rx="26" fill="#d8e3df" stroke="#11634d" stroke-width="9"/>
+  <path d="M270 365h360M270 410h360" stroke="#9eb2aa" stroke-width="7" stroke-linecap="round"/>
+  <rect x="338" y="148" width="224" height="190" rx="22" fill="#eef3f0" stroke="#11634d" stroke-width="9"/>
+  <rect x="315" y="105" width="270" height="54" rx="8" fill="#c56a27"/>
+  <circle cx="450" cy="244" r="58" fill="#ffffff" stroke="#9eb2aa" stroke-width="8"/>
+  <path d="M412 244h76M450 206v76" stroke="#11634d" stroke-width="8" stroke-linecap="round"/>
+  <text x="450" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#64706b">detail placeholder - revision opening</text>
+</svg>
